@@ -15,7 +15,7 @@ char Cell::getState()
 
 void Cell::setState(char state)
 {
-	m_state=state;
+	m_state = state;
 }
 
 char Cell::getValue()
@@ -25,7 +25,7 @@ char Cell::getValue()
 
 void Cell::setValue(char value)
 {
-	m_value=value;
+	m_value = value;
 }
 
 bool Cell::isflaged()

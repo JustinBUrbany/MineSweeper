@@ -1,12 +1,11 @@
 #ifndef ARRAY2D_H
 #define ARRAY2D_H
-#include"Cell.h"
+#include "Cell.h"
+#include "Array.h"
 
 template <typename T>
 class Row;
 
-template <typename T>
-class Array;
 
 
 template<typename T>
@@ -27,7 +26,7 @@ public:
 
 private:
 
-	Array<T> * m_array;
+	Array<T> m_array;
 	int m_row;
 	int m_col;
 };
